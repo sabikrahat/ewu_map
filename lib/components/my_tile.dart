@@ -24,8 +24,9 @@ class MyGroundTile extends StatelessWidget {
   }
 }
 
-Color _defineColor(String text) =>
-    groundFloorsWithColor[text] ?? Colors.blue[100]!;
+Color _defineColor(String text) {
+  return groundFloorsWithColor[text] ?? Colors.blue[100]!;
+}
 
 final groundFloorsWithColor = {
   'Coridor': Colors.blue,
@@ -46,3 +47,7 @@ final groundFloorsWithColor = {
   'MBA Department': Colors.teal,
   'Free Space': Colors.tealAccent,
 };
+
+List<String> UCSAlgorithm(String start, String end) {
+  return ['1', '2', '3'];
+}
