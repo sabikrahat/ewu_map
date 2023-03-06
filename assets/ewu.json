@@ -1,0 +1,100 @@
+{
+    "floor": 1,
+    "data": [
+        {
+            "id": 1,
+            "data": [
+                {
+                    "node": 1,
+                    "name": "R-120",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 2,
+                    "name": "118 & R-119",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 3,
+                    "name": "R-122",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 4,
+                    "name": "R-123",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 5,
+                    "name": "R-124",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 6,
+                    "name": "R-125",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 7,
+                    "name": "R-126",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 8,
+                    "name": "R-127",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 9,
+                    "name": "R-128",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 10,
+                    "name": "R-129",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 11,
+                    "name": "R-130",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 12,
+                    "name": "R-131",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 13,
+                    "name": "R-132",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 14,
+                    "name": "R-133",
+                    "flex": 1,
+                    "color": "#FF0000"
+                },
+                {
+                    "node": 15,
+                    "name": "R-134",
+                    "flex": 1,
+                    "color": "#FF0000"
+                }
+            ]
+        }
+    ]
+}
