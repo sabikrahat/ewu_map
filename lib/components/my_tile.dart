@@ -48,6 +48,4 @@ final groundFloorsWithColor = {
   'Free Space': Colors.tealAccent,
 };
 
-List<String> UCSAlgorithm(String start, String end) {
-  return ['1', '2', '3'];
-}
+List<String> ucsAlgorithm(String start, String end) => ['1', '2', '3'];
