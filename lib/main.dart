@@ -13,10 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      title: 'EWU Map',
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: const HomePage(),
     );
   }
@@ -41,7 +39,7 @@ class HomePage extends ConsumerWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => GroundFloorJSON(
+                          builder: (context) => GroundFloor(
                             floor: data.floors.firstWhere((e) => e.floor == 0),
                           ),
                         ),
@@ -51,16 +49,7 @@ class HomePage extends ConsumerWidget {
                   ),
                   const SizedBox(height: 20),
                   ElevatedButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => GroundFloor(
-                            floor: data.floors.firstWhere((e) => e.floor == 0),
-                          ),
-                        ),
-                      );
-                    },
+                    onPressed: () {},
                     child: const Text('1st Floor'),
                   ),
                   const SizedBox(height: 20),
