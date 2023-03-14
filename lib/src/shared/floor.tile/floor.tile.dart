@@ -1,6 +1,7 @@
+import 'package:ewu_map/src/utils/extensions/extensions.dart';
 import 'package:flutter/material.dart';
 
-import '../model/ewu.map.model.dart';
+import '../../modules/home/model/ewu.model.dart';
 
 class FloorTile extends StatelessWidget {
   const FloorTile(this.rowDatum, {super.key});
@@ -14,15 +15,16 @@ class FloorTile extends StatelessWidget {
       child: Container(
         alignment: Alignment.center,
         decoration: BoxDecoration(
-          color: Color(int.parse(rowDatum.color)),
+          color: context.theme.cardColor,
           border: Border.all(
-            color: Colors.black,
+            color: context.theme.primaryColor,
           ),
         ),
         child: Text(
           rowDatum.name,
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
+          style: context.text.labelLarge,
         ),
       ),
     );

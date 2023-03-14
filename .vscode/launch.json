@@ -7,8 +7,19 @@
         {
             "name": "ewu_map",
             "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ewu_map (profile mode)",
+            "request": "launch",
             "type": "dart",
-            "flutterMode": "debug"
+            "flutterMode": "profile"
+        },
+        {
+            "name": "ewu_map (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
         }
     ]
 }

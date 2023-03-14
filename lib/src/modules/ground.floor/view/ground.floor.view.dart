@@ -1,8 +1,9 @@
-import 'package:ewu_map/components/floor.tile.dart';
-import 'package:ewu_map/ground_floor/provider/ground.floor.provider.dart';
-import 'package:ewu_map/model/ewu.map.model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import '../../../shared/floor.tile/floor.tile.dart';
+import '../../home/model/ewu.model.dart';
+import '../provider/ground.floor.provider.dart';
 
 class GroundFloor extends ConsumerWidget {
   const GroundFloor({super.key, required this.floor});
@@ -63,12 +64,14 @@ class GroundFloor extends ConsumerWidget {
                 );
                 return;
               } else {
-                debugPrint('From ${from.name} ===> To ${to.name} in $routeName');
+                debugPrint(
+                    'From ${from.name} ===> To ${to.name} in $routeName');
               }
             },
             label: const Text('GO'),
             icon: const Icon(Icons.done),
-          )
+          ),
+          const SizedBox(width: 30.0),
         ],
       ),
       body: Padding(
