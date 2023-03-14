@@ -20,8 +20,9 @@ class FloorTile extends ConsumerWidget {
       child: Container(
         alignment: Alignment.center,
         decoration: BoxDecoration(
-          color:
-              isChecked ? context.theme.primaryColor : context.theme.cardColor,
+          color: isChecked
+              ? context.theme.primaryColor.withOpacity(0.5)
+              : context.theme.cardColor,
           border: Border.all(
             color: context.theme.primaryColor,
           ),
@@ -30,7 +31,8 @@ class FloorTile extends ConsumerWidget {
           rowDatum.toString(),
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
-          style: context.text.labelLarge,
+          style: context.text.labelLarge!
+              .copyWith(color: context.text.titleLarge!.color),
         ),
       ),
     );
