@@ -45,6 +45,10 @@ class RowDatum {
         "color": color,
       };
 
+  //toString 
+  @override
+  String toString() => '$node: $name';
+
 //   // equity override
 //   @override
 //   bool operator ==(Object other) {

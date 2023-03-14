@@ -27,7 +27,7 @@ class FloorTile extends ConsumerWidget {
           ),
         ),
         child: Text(
-          rowDatum.name.toString(),
+          rowDatum.toString(),
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
           style: context.text.labelLarge,

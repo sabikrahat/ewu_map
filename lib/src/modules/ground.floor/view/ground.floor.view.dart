@@ -29,7 +29,7 @@ class GroundFloor extends ConsumerWidget {
                   floor.colData.expand((e) => e.rowData).map((RowDatum value) {
                 return DropdownMenuItem<RowDatum>(
                   value: value,
-                  child: Text(value.name),
+                  child: Text(value.toString()),
                 );
               }).toList(),
             ),
@@ -45,7 +45,7 @@ class GroundFloor extends ConsumerWidget {
                   floor.colData.expand((e) => e.rowData).map((RowDatum value) {
                 return DropdownMenuItem<RowDatum>(
                   value: value,
-                  child: Text(value.name),
+                  child: Text(value.toString()),
                 );
               }).toList(),
             ),
