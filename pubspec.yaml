@@ -2,14 +2,15 @@ name: ewu_map
 description: A new Flutter project.
 
 # Prevent accidental publishing to pub.dev.
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.19.4 <3.0.0'
+  sdk: ">=2.19.4 <3.0.0"
 
 dependencies:
+  dijkstra: ^0.0.3
   flutter:
     sdk: flutter
   flutter_localizations:
@@ -58,7 +59,7 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/svgs/
-    
+
   fonts:
     - family: Nunito
       fonts:

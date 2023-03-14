@@ -96,9 +96,9 @@ const _textSelectionTheme = TextSelectionThemeData(
 final _snackBarTheme = SnackBarThemeData(
   actionTextColor: _textTheme.labelSmall!.color,
   contentTextStyle: _textTheme.labelSmall,
-  backgroundColor: Colors.transparent,
+  backgroundColor: _cardTheme.color,
   behavior: SnackBarBehavior.floating,
-  shape: roundedRectangleBorder30,
+  shape: roundedRectangleBorder10,
   elevation: 0.0,
 );
 

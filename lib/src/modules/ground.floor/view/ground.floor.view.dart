@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../shared/dijkstra.algorithm/dijkstra.algorithm.dart';
 import '../../../shared/floor.tile/floor.tile.dart';
-import '../../home/model/ewu.model.dart';
+import '../../home/model/sub.models/floor.dart';
+import '../../home/model/sub.models/row.datum.dart';
+import '../../home/provider/home.provider.dart';
 import '../provider/ground.floor.provider.dart';
 
 class GroundFloor extends ConsumerWidget {
   const GroundFloor({super.key, required this.floor});
 
   final Floor floor;
-
-  static const String routeName = 'ground-floor';
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -21,12 +22,11 @@ class GroundFloor extends ConsumerWidget {
           DropdownButtonHideUnderline(
             child: DropdownButton<RowDatum>(
               hint: const Text('From'),
-              value: ref.watch(fromPd(routeName)),
+              value: ref.watch(fromPd(groundFloor)),
               onChanged: (v) =>
-                  ref.read(fromPd(routeName).notifier).update((_) => v),
-              items: floor.colData
-                  .expand((e) => e.rowData)
-                  .map<DropdownMenuItem<RowDatum>>((RowDatum value) {
+                  ref.read(fromPd(groundFloor).notifier).update((_) => v),
+              items:
+                  floor.colData.expand((e) => e.rowData).map((RowDatum value) {
                 return DropdownMenuItem<RowDatum>(
                   value: value,
                   child: Text(value.name),
@@ -34,16 +34,15 @@ class GroundFloor extends ConsumerWidget {
               }).toList(),
             ),
           ),
-          const SizedBox(width: 10.0),
+          const SizedBox(width: 20.0),
           DropdownButtonHideUnderline(
             child: DropdownButton<RowDatum>(
               hint: const Text('To'),
-              value: ref.watch(toPd(routeName)),
+              value: ref.watch(toPd(groundFloor)),
               onChanged: (v) =>
-                  ref.read(toPd(routeName).notifier).update((_) => v),
-              items: floor.colData
-                  .expand((e) => e.rowData)
-                  .map<DropdownMenuItem<RowDatum>>((RowDatum value) {
+                  ref.read(toPd(groundFloor).notifier).update((_) => v),
+              items:
+                  floor.colData.expand((e) => e.rowData).map((RowDatum value) {
                 return DropdownMenuItem<RowDatum>(
                   value: value,
                   child: Text(value.name),
@@ -54,22 +53,45 @@ class GroundFloor extends ConsumerWidget {
           const SizedBox(width: 10.0),
           ElevatedButton.icon(
             onPressed: () {
-              final from = ref.read(fromPd(routeName));
-              final to = ref.read(toPd(routeName));
+              final from = ref.read(fromPd(groundFloor));
+              final to = ref.read(toPd(groundFloor));
               if (from == null || to == null) {
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
-                    content: Text('Please select a valid from and to'),
-                  ),
+                      content: Text('Please select a valid from and to')),
                 );
                 return;
               } else {
                 debugPrint(
-                    'From ${from.name} ===> To ${to.name} in $routeName');
+                    'From ${from.name} ===> To ${to.name} in $groundFloor');
+                calculatePath(
+                  pairsList: floor.edgeVertics,
+                  floorName: groundFloor,
+                  ref: ref,
+                  from: from.node,
+                  to: to.node,
+                );
               }
             },
             label: const Text('GO'),
             icon: const Icon(Icons.done),
+          ),
+          const SizedBox(width: 10.0),
+          ElevatedButton.icon(
+            onPressed: () {
+              clearDropdowns(
+                list: floor.colData
+                    .expand((e) => e.rowData)
+                    .map((v) => v.node)
+                    .toList()
+                    .toSet()
+                    .toList(),
+                floorName: groundFloor,
+                ref: ref,
+              );
+            },
+            label: const Text('Clear'),
+            icon: const Icon(Icons.clear),
           ),
           const SizedBox(width: 30.0),
         ],
@@ -88,6 +110,7 @@ class GroundFloor extends ConsumerWidget {
                         floor.colData[outterIdx].rowData.length,
                         (innerIdx) => FloorTile(
                           floor.colData[outterIdx].rowData[innerIdx],
+                          groundFloor,
                         ),
                       ),
                     ],

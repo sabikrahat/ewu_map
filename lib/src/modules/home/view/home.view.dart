@@ -35,13 +35,10 @@ class Body extends ConsumerWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 ElevatedButton(
-                  onPressed: () => Navigator.push(
+                  onPressed: () async => await fadePush(
                     context,
-                    MaterialPageRoute(
-                      builder: (context) => GroundFloor(
-                        floor: data.floors.firstWhere((e) => e.floor == 0),
-                      ),
-                    ),
+                    GroundFloor(
+                        floor: data.floors.firstWhere((e) => e.floor == 0)),
                   ),
                   child: const Text('Ground Floor'),
                 ),
