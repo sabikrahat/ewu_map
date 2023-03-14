@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'EWU Map',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const HomePage(),
@@ -35,16 +36,14 @@ class HomePage extends ConsumerWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   ElevatedButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => GroundFloor(
-                            floor: data.floors.firstWhere((e) => e.floor == 0),
-                          ),
+                    onPressed: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => GroundFloor(
+                          floor: data.floors.firstWhere((e) => e.floor == 0),
                         ),
-                      );
-                    },
+                      ),
+                    ),
                     child: const Text('Ground Floor'),
                   ),
                   const SizedBox(height: 20),

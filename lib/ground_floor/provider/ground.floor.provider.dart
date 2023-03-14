@@ -8,3 +8,9 @@ final loadMapProvider = FutureProvider((_) async {
   debugPrint(mapStr);
   return EwuMap.fromRawJson(mapStr);
 });
+
+final fromPd = StateProvider.autoDispose
+    .family<RowDatum?, String>((ref, String floor) => null);
+
+final toPd = StateProvider.autoDispose
+    .family<RowDatum?, String>((ref, String floor) => null);
