@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
 import '../../constants/constants.dart';
 import '../../db/hive.dart';
 import '../../modules/setting/model/setting.model.dart';
-
 import '../model/theme.model.dart';
 import 'dark/dark.theme.dart';
 import 'light/light.theme.dart';

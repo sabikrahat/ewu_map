@@ -1,6 +1,5 @@
 import 'dart:convert' show json;
 
-
 import 'package:hive/hive.dart';
 
 import '../../../db/hive.dart';
