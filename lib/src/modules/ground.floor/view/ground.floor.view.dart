@@ -16,13 +16,22 @@ class GroundFloor extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final uniqueValues = <RowDatum>{};
+    for (var colData in floor.colData) {
+      for (var rowData in colData.rowData) {
+        if (!uniqueValues.any((value) => value.node == rowData.node)) {
+          uniqueValues.add(rowData);
+        }
+      }
+    }
+    final list = uniqueValues.toList()
+      ..sort((a, b) => a.node.compareTo(b.node));
     return Scaffold(
       appBar: AppBar(
         title: const Text('Ground Floor'),
         actions: [
           DropdownButtonHideUnderline(
             child: DropdownButton<RowDatum>(
-              
               borderRadius: borderRadius15,
               hint: const Padding(
                 padding: EdgeInsets.only(left: 4.0),
@@ -31,8 +40,7 @@ class GroundFloor extends ConsumerWidget {
               value: ref.watch(fromPd(groundFloor)),
               onChanged: (v) =>
                   ref.read(fromPd(groundFloor).notifier).update((_) => v),
-              items:
-                  floor.colData.expand((e) => e.rowData).map((RowDatum value) {
+              items: list.map((RowDatum value) {
                 return DropdownMenuItem<RowDatum>(
                   value: value,
                   child: Padding(
@@ -54,8 +62,7 @@ class GroundFloor extends ConsumerWidget {
               value: ref.watch(toPd(groundFloor)),
               onChanged: (v) =>
                   ref.read(toPd(groundFloor).notifier).update((_) => v),
-              items:
-                  floor.colData.expand((e) => e.rowData).map((RowDatum value) {
+              items: list.map((RowDatum value) {
                 return DropdownMenuItem<RowDatum>(
                   value: value,
                   child: Padding(
@@ -81,6 +88,12 @@ class GroundFloor extends ConsumerWidget {
                 debugPrint(
                     'From ${from.name} ===> To ${to.name} in $groundFloor');
                 calculatePath(
+                  allNodes: floor.colData
+                      .expand((e) => e.rowData)
+                      .map((v) => v.node)
+                      .toList()
+                      .toSet()
+                      .toList(),
                   pairsList: floor.edgeVertics,
                   floorName: groundFloor,
                   ref: ref,
@@ -96,7 +109,7 @@ class GroundFloor extends ConsumerWidget {
           ElevatedButton.icon(
             onPressed: () {
               clearDropdowns(
-                list: floor.colData
+                allNodes: floor.colData
                     .expand((e) => e.rowData)
                     .map((v) => v.node)
                     .toList()
