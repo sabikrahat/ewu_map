@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import '../../constants/constants.dart';
+import '../../db/hive.dart';
 import '../../modules/setting/model/setting.model.dart';
 
-import '../../db/isar.dart';
 import '../model/theme.model.dart';
 import 'dark/dark.theme.dart';
 import 'light/light.theme.dart';
 
 const fontFamily = 'Nunito';
 
-final themeType = db.appSettings.getSync(0)?.theme ?? ThemeProfile.light;
+final themeType = Boxes.appSettings.get(appName, defaultValue: AppSetting())!.theme;
 
 SystemUiOverlayStyle get uiConfig => themeType == ThemeProfile.light ? lightUiConfig : darkUiConfig;
 

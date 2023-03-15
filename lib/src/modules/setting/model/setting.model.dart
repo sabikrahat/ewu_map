@@ -1,21 +1,22 @@
 import 'dart:convert' show json;
 
-import 'package:isar/isar.dart';
 
+import 'package:hive/hive.dart';
+
+import '../../../db/hive.dart';
 import '../../../theme/model/theme.model.dart';
 
 part 'setting.model.ext.dart';
 part 'setting.model.g.dart';
 
-@Collection()
+@HiveType(typeId: HiveTypes.appSettings)
 class AppSetting {
   AppSetting();
 
-  final Id id = 0;
-
+  @HiveField(0)
   bool firstRun = true;
 
-  @Enumerated(EnumType.name)
+  @HiveField(1)
   ThemeProfile theme = ThemeProfile.light;
 
   String toRawJson() => json.encode(toJson());
@@ -23,7 +24,6 @@ class AppSetting {
   Map<String, dynamic> toJson() => {
         'firstRun': firstRun,
         'theme': theme.name,
-        'id': id,
       };
 
   factory AppSetting.fromJson(String source) =>
@@ -38,14 +38,4 @@ class AppSetting {
 
   @override
   String toString() => toRawJson();
-
-  @override
-  bool operator ==(Object other) {
-    if (identical(this, other)) return true;
-    return other is AppSetting && other.id == id;
-  }
-
-  @Ignore()
-  @override
-  int get hashCode => id.hashCode;
 }

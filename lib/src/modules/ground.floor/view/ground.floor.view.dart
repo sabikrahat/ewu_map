@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../shared/dijkstra.algorithm/dijkstra.algorithm.dart';
 import '../../../shared/floor.tile/floor.tile.dart';
+import '../../../theme/themes/themes.dart';
 import '../../home/model/sub.models/floor.dart';
 import '../../home/model/sub.models/row.datum.dart';
 import '../../home/provider/home.provider.dart';
@@ -21,7 +22,12 @@ class GroundFloor extends ConsumerWidget {
         actions: [
           DropdownButtonHideUnderline(
             child: DropdownButton<RowDatum>(
-              hint: const Text('From'),
+              
+              borderRadius: borderRadius15,
+              hint: const Padding(
+                padding: EdgeInsets.only(left: 4.0),
+                child: Text('From'),
+              ),
               value: ref.watch(fromPd(groundFloor)),
               onChanged: (v) =>
                   ref.read(fromPd(groundFloor).notifier).update((_) => v),
@@ -29,7 +35,10 @@ class GroundFloor extends ConsumerWidget {
                   floor.colData.expand((e) => e.rowData).map((RowDatum value) {
                 return DropdownMenuItem<RowDatum>(
                   value: value,
-                  child: Text(value.toString()),
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 4.0),
+                    child: Text(value.toString()),
+                  ),
                 );
               }).toList(),
             ),
@@ -37,7 +46,11 @@ class GroundFloor extends ConsumerWidget {
           const SizedBox(width: 20.0),
           DropdownButtonHideUnderline(
             child: DropdownButton<RowDatum>(
-              hint: const Text('To'),
+              borderRadius: borderRadius15,
+              hint: const Padding(
+                padding: EdgeInsets.only(left: 4.0),
+                child: Text('To'),
+              ),
               value: ref.watch(toPd(groundFloor)),
               onChanged: (v) =>
                   ref.read(toPd(groundFloor).notifier).update((_) => v),
@@ -45,7 +58,10 @@ class GroundFloor extends ConsumerWidget {
                   floor.colData.expand((e) => e.rowData).map((RowDatum value) {
                 return DropdownMenuItem<RowDatum>(
                   value: value,
-                  child: Text(value.toString()),
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 4.0),
+                    child: Text(value.toString()),
+                  ),
                 );
               }).toList(),
             ),
