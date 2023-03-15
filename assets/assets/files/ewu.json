@@ -1,0 +1,1608 @@
+{
+    "name": "Map of East West University",
+    "version": 1.0,
+    "floors": [
+        {
+            "floor": 0,
+            "edgeVertics": [
+                [
+                    1,
+                    2
+                ],
+                [
+                    1,
+                    22
+                ],
+                [
+                    22,
+                    18
+                ],
+                [
+                    1,
+                    18
+                ],
+                [
+                    2,
+                    18
+                ],
+                [
+                    22,
+                    23
+                ],
+                [
+                    18,
+                    24
+                ],
+                [
+                    18,
+                    23
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    18,
+                    3
+                ],
+                [
+                    18,
+                    4
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    19,
+                    20
+                ],
+                [
+                    19,
+                    6
+                ],
+                [
+                    19,
+                    25
+                ],
+                [
+                    6,
+                    20
+                ],
+                [
+                    20,
+                    7
+                ],
+                [
+                    7,
+                    21
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    25,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    38,
+                    43
+                ],
+                [
+                    43,
+                    39
+                ],
+                [
+                    43,
+                    44
+                ],
+                [
+                    44,
+                    39
+                ],
+                [
+                    44,
+                    47
+                ],
+                [
+                    47,
+                    48
+                ],
+                [
+                    39,
+                    48
+                ],
+                [
+                    26,
+                    39
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    29,
+                    30
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    18,
+                    28
+                ],
+                [
+                    9,
+                    29
+                ],
+                [
+                    10,
+                    30
+                ],
+                [
+                    11,
+                    30
+                ],
+                [
+                    12,
+                    30
+                ],
+                [
+                    13,
+                    32
+                ],
+                [
+                    14,
+                    33
+                ],
+                [
+                    33,
+                    35
+                ],
+                [
+                    33,
+                    36
+                ],
+                [
+                    36,
+                    31
+                ],
+                [
+                    34,
+                    35
+                ],
+                [
+                    34,
+                    37
+                ],
+                [
+                    17,
+                    37
+                ],
+                [
+                    35,
+                    37
+                ],
+                [
+                    37,
+                    42
+                ],
+                [
+                    42,
+                    46
+                ],
+                [
+                    30,
+                    41
+                ],
+                [
+                    39,
+                    40
+                ],
+                [
+                    48,
+                    49
+                ],
+                [
+                    39,
+                    49
+                ],
+                [
+                    49,
+                    50
+                ],
+                [
+                    39,
+                    50
+                ],
+                [
+                    50,
+                    51
+                ],
+                [
+                    40,
+                    45
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    45,
+                    46
+                ],
+                [
+                    41,
+                    53
+                ],
+                [
+                    41,
+                    52
+                ],
+                [
+                    51,
+                    52
+                ],
+                [
+                    52,
+                    53
+                ],
+                [
+                    46,
+                    54
+                ],
+                [
+                    54,
+                    58
+                ],
+                [
+                    53,
+                    56
+                ],
+                [
+                    56,
+                    60
+                ],
+                [
+                    60,
+                    57
+                ],
+                [
+                    57,
+                    58
+                ],
+                [
+                    56,
+                    59
+                ],
+                [
+                    55,
+                    59
+                ]
+            ],
+            "colData": [
+                {
+                    "id": 1,
+                    "rowData": [
+                        {
+                            "node": 1,
+                            "name": "R-120",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 2,
+                            "name": "R-118 & R-119",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 3,
+                            "name": "R-117",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 4,
+                            "name": "R-116",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 5,
+                            "name": "washroom",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 6,
+                            "name": "corridor",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 7,
+                            "name": "stair",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 8,
+                            "name": "R-114",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 9,
+                            "name": "R-113",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 10,
+                            "name": "washroom",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 11,
+                            "name": "stair",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 12,
+                            "name": "washroom",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 13,
+                            "name": "R-109",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 14,
+                            "name": "R-107",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 15,
+                            "name": "stair",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 16,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 17,
+                            "name": "namaz-ghor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "rowData": [
+                        {
+                            "node": 1,
+                            "name": "R-120",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 2,
+                            "name": "R-118 & R-119",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 3,
+                            "name": "R-117",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 4,
+                            "name": "R-116",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 5,
+                            "name": "washroom",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 6,
+                            "name": "corridor",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 7,
+                            "name": "stair",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 8,
+                            "name": "R-114",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 9,
+                            "name": "R-113",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 10,
+                            "name": "washroom",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 11,
+                            "name": "stair",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 12,
+                            "name": "washroom",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 13,
+                            "name": "R-109",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 14,
+                            "name": "R-107",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 16,
+                            "name": "corridor",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 16,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 17,
+                            "name": "namaz-ghor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "rowData": [
+                        {
+                            "node": 1,
+                            "name": "R-120",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 18,
+                            "name": "MBA-department",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 19,
+                            "name": "Gate",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 20,
+                            "name": "corridor",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 7,
+                            "name": "stair",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 21,
+                            "name": "corridor",
+                            "flex": 10,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 17,
+                            "name": "namaz-ghor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "rowData": [
+                        {
+                            "node": 1,
+                            "name": "R-120",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 18,
+                            "name": "MBA-department",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 19,
+                            "name": "Gate",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 20,
+                            "name": "corridor",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 21,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 21,
+                            "name": "corridor",
+                            "flex": 8,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 34,
+                            "name": "lift",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 17,
+                            "name": "namaz-ghor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "rowData": [
+                        {
+                            "node": 22,
+                            "name": "R-121",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 18,
+                            "name": "MBA-department",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 20,
+                            "name": "corridor",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 28,
+                            "name": "R-113",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 29,
+                            "name": "R-112",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 30,
+                            "name": "Gate",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 31,
+                            "name": "R-111",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 32,
+                            "name": "R-110",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 33,
+                            "name": "R-108",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 35,
+                            "name": "stair",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 17,
+                            "name": "namaz-ghor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "rowData": [
+                        {
+                            "node": 22,
+                            "name": "R-121",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 23,
+                            "name": "R-122 & R-123",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 24,
+                            "name": "R-124 & R-125",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 25,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 26,
+                            "name": "lift",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 27,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 28,
+                            "name": "R-113",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 29,
+                            "name": "R-112",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 30,
+                            "name": "Gate",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 31,
+                            "name": "R-111",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 32,
+                            "name": "R-110",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 33,
+                            "name": "R-108",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 35,
+                            "name": "stair",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 17,
+                            "name": "namaz-ghor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "rowData": [
+                        {
+                            "node": 22,
+                            "name": "R-121",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 23,
+                            "name": "R-122 & R-123",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 24,
+                            "name": "R-124 & R-125",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 25,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 26,
+                            "name": "lift",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 27,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 28,
+                            "name": "R-113",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 29,
+                            "name": "R-112",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 30,
+                            "name": "Gate",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 31,
+                            "name": "R-111",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 32,
+                            "name": "R-110",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 33,
+                            "name": "R-108",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 36,
+                            "name": "R-102",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 17,
+                            "name": "namaz-ghor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "rowData": [
+                        {
+                            "node": 38,
+                            "name": "Free-space",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 39,
+                            "name": "corridor",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 27,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 28,
+                            "name": "R-113",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 29,
+                            "name": "R-112",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 30,
+                            "name": "Gate",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 31,
+                            "name": "R-111",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 32,
+                            "name": "R-110",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 33,
+                            "name": "R-108",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 36,
+                            "name": "R-102",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 17,
+                            "name": "namaz-ghor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "rowData": [
+                        {
+                            "node": 38,
+                            "name": "Free-space",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 39,
+                            "name": "corridor",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 40,
+                            "name": "Wifi-zone",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 41,
+                            "name": "Open-courtyard",
+                            "flex": 9,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 42,
+                            "name": "Admin-access",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "rowData": [
+                        {
+                            "node": 38,
+                            "name": "Free-space",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 39,
+                            "name": "corridor",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 40,
+                            "name": "Wifi-zone",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 41,
+                            "name": "Open-courtyard",
+                            "flex": 9,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 42,
+                            "name": "Admin-access",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "rowData": [
+                        {
+                            "node": 43,
+                            "name": "washroom",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 39,
+                            "name": "corridor",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 40,
+                            "name": "Wifi-zone",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 41,
+                            "name": "Open-courtyard",
+                            "flex": 9,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 42,
+                            "name": "Admin-access",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "rowData": [
+                        {
+                            "node": 43,
+                            "name": "washroom",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 39,
+                            "name": "corridor",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 40,
+                            "name": "Wifi-zone",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 41,
+                            "name": "Open-courtyard",
+                            "flex": 9,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 42,
+                            "name": "Admin-access",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "rowData": [
+                        {
+                            "node": 43,
+                            "name": "washroom",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 39,
+                            "name": "corridor",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 40,
+                            "name": "Wifi-zone",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 41,
+                            "name": "Open-courtyard",
+                            "flex": 9,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 42,
+                            "name": "Admin-access",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "rowData": [
+                        {
+                            "node": 44,
+                            "name": "Gallery",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 39,
+                            "name": "corridor",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 40,
+                            "name": "Wifi-zone",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 41,
+                            "name": "Open-courtyard",
+                            "flex": 9,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 42,
+                            "name": "Admin-access",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "rowData": [
+                        {
+                            "node": 44,
+                            "name": "Gallery",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 39,
+                            "name": "corridor",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 40,
+                            "name": "Wifi-zone",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 41,
+                            "name": "Open-courtyard",
+                            "flex": 9,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 37,
+                            "name": "corridor",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 42,
+                            "name": "Admin-access",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "rowData": [
+                        {
+                            "node": 44,
+                            "name": "Gallery",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 45,
+                            "name": "corridor",
+                            "flex": 14,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 46,
+                            "name": "stair",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "rowData": [
+                        {
+                            "node": 44,
+                            "name": "Gallery",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 45,
+                            "name": "corridor",
+                            "flex": 14,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 46,
+                            "name": "stair",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "rowData": [
+                        {
+                            "node": 44,
+                            "name": "Gallery",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 45,
+                            "name": "corridor",
+                            "flex": 14,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 54,
+                            "name": "Free-space",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "rowData": [
+                        {
+                            "node": 44,
+                            "name": "Gallery",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 48,
+                            "name": "stair",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 49,
+                            "name": "Free-space",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 50,
+                            "name": "lift",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 51,
+                            "name": "Free-space",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 52,
+                            "name": "Auditorium",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 53,
+                            "name": "corridor",
+                            "flex": 7,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 54,
+                            "name": "Free-space",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "rowData": [
+                        {
+                            "node": 44,
+                            "name": "Gallery",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 48,
+                            "name": "stair",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 49,
+                            "name": "Free-space",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 50,
+                            "name": "lift",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 51,
+                            "name": "Free-space",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 52,
+                            "name": "Auditorium",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 53,
+                            "name": "corridor",
+                            "flex": 7,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 54,
+                            "name": "Free-space",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "rowData": [
+                        {
+                            "node": 47,
+                            "name": "Study-zone",
+                            "flex": 8,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 51,
+                            "name": "Free-space",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 52,
+                            "name": "Auditorium",
+                            "flex": 3,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 53,
+                            "name": "corridor",
+                            "flex": 4,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 57,
+                            "name": "Reception",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 58,
+                            "name": "Punch-machine",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "rowData": [
+                        {
+                            "node": 47,
+                            "name": "Study-zone",
+                            "flex": 8,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 56,
+                            "name": "Free-space",
+                            "flex": 8,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 57,
+                            "name": "Reception",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 58,
+                            "name": "Punch-machine",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "rowData": [
+                        {
+                            "node": 47,
+                            "name": "Study-zone",
+                            "flex": 8,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 55,
+                            "name": "FUB-entry",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 56,
+                            "name": "Free-space",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 59,
+                            "name": "washroom",
+                            "flex": 5,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 60,
+                            "name": "stair",
+                            "flex": 1,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 57,
+                            "name": "Reception",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        },
+                        {
+                            "node": 58,
+                            "name": "Punch-machine",
+                            "flex": 2,
+                            "color": "0xFFBBDEFB"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
