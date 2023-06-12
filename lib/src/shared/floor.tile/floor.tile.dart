@@ -22,9 +22,12 @@ class FloorTile extends ConsumerWidget {
         decoration: BoxDecoration(
           color: isChecked
               ? context.theme.primaryColor.withOpacity(0.5)
-              : context.theme.cardColor,
+              : Color(int.parse(rowDatum.color)),
           border: Border.all(
-            color: context.theme.primaryColor,
+            color: isChecked
+                ? context.theme.primaryColor.withOpacity(0.5)
+                : Color(int.parse(rowDatum.border)),
+            width: 0.5,
           ),
         ),
         child: floorName == sixthFloor
@@ -36,14 +39,14 @@ class FloorTile extends ConsumerWidget {
                     .copyWith(color: context.text.titleLarge!.color),
               )
             : FittedBox(
-              child: Text(
+                child: Text(
                   rowDatum.toString(),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: context.text.labelLarge!
                       .copyWith(color: context.text.titleLarge!.color),
                 ),
-            ),
+              ),
       ),
     );
   }

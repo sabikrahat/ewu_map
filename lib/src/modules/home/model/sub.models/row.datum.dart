@@ -6,24 +6,28 @@ class RowDatum {
     required this.name,
     required this.flex,
     required this.color,
+    required this.border,
   });
 
   final int node;
   final String name;
   final int flex;
   final String color;
+  final String border;
 
   RowDatum copyWith({
     int? node,
     String? name,
     int? flex,
     String? color,
+    String? border,
   }) =>
       RowDatum(
         node: node ?? this.node,
         name: name ?? this.name,
         flex: flex ?? this.flex,
         color: color ?? this.color,
+        border: border ?? this.border,
       );
 
   factory RowDatum.fromRawJson(String str) =>
@@ -36,6 +40,7 @@ class RowDatum {
         name: json["name"],
         flex: json["flex"],
         color: json["color"],
+        border: json["border"],
       );
 
   Map<String, dynamic> toJson() => {
@@ -43,11 +48,12 @@ class RowDatum {
         "name": name,
         "flex": flex,
         "color": color,
+        "border": border,
       };
 
-  //toString 
+  //toString
   @override
-  String toString() => '$node: $name';
+  String toString() => name;
 
 //   // equity override
 //   @override
