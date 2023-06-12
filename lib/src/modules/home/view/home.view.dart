@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../constants/custom.routes.dart';
-import '../../ground.floor/view/ground.floor.view.dart';
+import '../../floor.design/view/floor.design.dart';
 import '../../setting/view/setting.view.dart';
 import '../provider/home.provider.dart';
 
@@ -37,7 +37,7 @@ class Body extends ConsumerWidget {
                 ElevatedButton(
                   onPressed: () async => await fadePush(
                     context,
-                    GroundFloor(
+                    FloorDesign(
                         floor: data.floors.firstWhere((e) => e.floor == 0)),
                   ),
                   child: const Text('Ground Floor'),
@@ -66,6 +66,15 @@ class Body extends ConsumerWidget {
                 ElevatedButton(
                   onPressed: () {},
                   child: const Text('5th Floor'),
+                ),
+                const SizedBox(height: 20),
+                ElevatedButton(
+                  onPressed: () async => await fadePush(
+                    context,
+                    FloorDesign(
+                        floor: data.floors.firstWhere((e) => e.floor == 6)),
+                  ),
+                  child: const Text('Department Corridor Live Trace'),
                 ),
                 const SizedBox(height: 20),
               ],

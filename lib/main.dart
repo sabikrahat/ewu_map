@@ -11,6 +11,7 @@ import 'src/theme/themes/themes.dart';
 
 Future<void> main() async {
   await _init();
+  // await checkWifiConnection();
   runApp(const ProviderScope(child: MyApp()));
 }
 

@@ -36,3 +36,25 @@ const String secondFloor = 'second-floor';
 const String thirdFloor = 'third-floor';
 const String fourthFloor = 'fourth-floor';
 const String fifthFloor = 'fifth-floor';
+const String sixthFloor = 'sixth-floor';
+
+String getFloorName(int f) {
+  switch (f) {
+    case 0:
+      return groundFloor;
+    case 1:
+      return firstFloor;
+    case 2:
+      return secondFloor;
+    case 3:
+      return thirdFloor;
+    case 4:
+      return fourthFloor;
+    case 5:
+      return fifthFloor;
+    case 6:
+      return sixthFloor;
+    default:
+      return groundFloor;
+  }
+}

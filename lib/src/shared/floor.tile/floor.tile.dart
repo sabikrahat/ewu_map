@@ -27,15 +27,23 @@ class FloorTile extends ConsumerWidget {
             color: context.theme.primaryColor,
           ),
         ),
-        child: FittedBox(
-          child: Text(
-            rowDatum.toString(),
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: context.text.labelLarge!
-                .copyWith(color: context.text.titleLarge!.color),
-          ),
-        ),
+        child: floorName == sixthFloor
+            ? Text(
+                rowDatum.name,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: context.text.labelLarge!
+                    .copyWith(color: context.text.titleLarge!.color),
+              )
+            : FittedBox(
+              child: Text(
+                  rowDatum.toString(),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: context.text.labelLarge!
+                      .copyWith(color: context.text.titleLarge!.color),
+                ),
+            ),
       ),
     );
   }
