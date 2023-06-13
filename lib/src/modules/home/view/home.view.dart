@@ -1,3 +1,4 @@
+import 'package:ewu_map/src/modules/home/model/ewu.model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -40,142 +41,68 @@ class Body extends ConsumerWidget {
                 children: [
                   const SizedBox(height: 15),
                   ElevatedButton(
-                    onPressed: () async {
-                      if (data.floors.any((e) => e.floor == 0)) {
-                        await fadePush(
-                            context,
-                            FloorDesign(
-                                floor: data.floors
-                                    .firstWhere((e) => e.floor == 0)));
-                      } else {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('No data for ground floor'),
-                            duration: Duration(seconds: 1),
-                          ),
-                        );
-                      }
-                    },
+                    onPressed: () async =>
+                        await goToBaseDesign(context, data, 0),
                     child: const Text('Ground Floor'),
                   ),
                   const SizedBox(height: 15),
                   ElevatedButton(
-                    onPressed: () async {
-                      if (data.floors.any((e) => e.floor == 1)) {
-                        await fadePush(
-                            context,
-                            FloorDesign(
-                                floor: data.floors
-                                    .firstWhere((e) => e.floor == 1)));
-                      } else {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('No data for 1st floor'),
-                            duration: Duration(seconds: 1),
-                          ),
-                        );
-                      }
-                    },
+                    onPressed: () async =>
+                        await goToBaseDesign(context, data, 1),
                     child: const Text('1st Floor'),
                   ),
                   const SizedBox(height: 15),
                   ElevatedButton(
-                    onPressed: () async {
-                      if (data.floors.any((e) => e.floor == 2)) {
-                        await fadePush(
-                            context,
-                            FloorDesign(
-                                floor: data.floors
-                                    .firstWhere((e) => e.floor == 2)));
-                      } else {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('No data for 2nd floor'),
-                            duration: Duration(seconds: 1),
-                          ),
-                        );
-                      }
-                    },
+                    onPressed: () async =>
+                        await goToBaseDesign(context, data, 2),
                     child: const Text('2nd Floor'),
                   ),
                   const SizedBox(height: 15),
                   ElevatedButton(
-                    onPressed: () async {
-                      if (data.floors.any((e) => e.floor == 3)) {
-                        await fadePush(
-                            context,
-                            FloorDesign(
-                                floor: data.floors
-                                    .firstWhere((e) => e.floor == 3)));
-                      } else {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('No data for 3rd floor'),
-                            duration: Duration(seconds: 1),
-                          ),
-                        );
-                      }
-                    },
+                    onPressed: () async =>
+                        await goToBaseDesign(context, data, 3),
                     child: const Text('3rd Floor'),
                   ),
                   const SizedBox(height: 15),
                   ElevatedButton(
-                    onPressed: () async {
-                      if (data.floors.any((e) => e.floor == 4)) {
-                        await fadePush(
-                            context,
-                            FloorDesign(
-                                floor: data.floors
-                                    .firstWhere((e) => e.floor == 4)));
-                      } else {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('No data for 4th floor'),
-                            duration: Duration(seconds: 1),
-                          ),
-                        );
-                      }
-                    },
+                    onPressed: () async =>
+                        await goToBaseDesign(context, data, 4),
                     child: const Text('4th Floor'),
                   ),
                   const SizedBox(height: 15),
                   ElevatedButton(
-                    onPressed: () async {
-                      if (data.floors.any((e) => e.floor == 5)) {
-                        await fadePush(
-                            context,
-                            FloorDesign(
-                                floor: data.floors
-                                    .firstWhere((e) => e.floor == 5)));
-                      } else {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('No data for 5th floor'),
-                            duration: Duration(seconds: 1),
-                          ),
-                        );
-                      }
-                    },
+                    onPressed: () async =>
+                        await goToBaseDesign(context, data, 5),
                     child: const Text('5th Floor'),
                   ),
                   const SizedBox(height: 15),
                   ElevatedButton(
-                    onPressed: () async {
-                      if (data.floors.any((e) => e.floor == 6)) {
-                        await fadePush(
-                            context,
-                            FloorDesign(
-                                floor: data.floors
-                                    .firstWhere((e) => e.floor == 6)));
-                      } else {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('No data for 6th floor'),
-                            duration: Duration(seconds: 1),
-                          ),
-                        );
-                      }
-                    },
+                    onPressed: () async =>
+                        await goToBaseDesign(context, data, 6),
+                    child: const Text('6th Floor'),
+                  ),
+                  const SizedBox(height: 15),
+                  ElevatedButton(
+                    onPressed: () async =>
+                        await goToBaseDesign(context, data, 7),
+                    child: const Text('7th Floor'),
+                  ),
+                  const SizedBox(height: 15),
+                  ElevatedButton(
+                    onPressed: () async =>
+                        await goToBaseDesign(context, data, 8),
+                    child: const Text('8th Floor'),
+                  ),
+                  const SizedBox(height: 15),
+                  ElevatedButton(
+                    onPressed: () async =>
+                        await goToBaseDesign(context, data, 9),
+                    child: const Text('9th Floor'),
+                  ),
+                  const SizedBox(height: 15),
+                  ElevatedButton(
+                    onPressed: () async =>
+                        await goToBaseDesign(context, data, 10),
                     child: const Text('Department Corridor Live Trace'),
                   ),
                   const SizedBox(height: 15),
@@ -228,5 +155,19 @@ Future<bool> preCheckAndGoWifiHunterPage(BuildContext context) async {
       ),
     );
     return false;
+  }
+}
+
+Future<void> goToBaseDesign(BuildContext context, EwuMap data, int f) async {
+  if (data.floors.any((e) => e.floor == f)) {
+    await fadePush(context,
+        FloorDesign(floor: data.floors.firstWhere((e) => e.floor == f)));
+  } else {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text('No data for ${f}th floor'),
+        duration: const Duration(seconds: 1),
+      ),
+    );
   }
 }

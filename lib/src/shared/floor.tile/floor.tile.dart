@@ -30,7 +30,7 @@ class FloorTile extends ConsumerWidget {
             width: 0.5,
           ),
         ),
-        child: floorName == sixthFloor
+        child: floorName == tenthFloor
             ? Text(
                 rowDatum.name,
                 maxLines: 1,

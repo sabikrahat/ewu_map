@@ -37,6 +37,10 @@ const String thirdFloor = 'third-floor';
 const String fourthFloor = 'fourth-floor';
 const String fifthFloor = 'fifth-floor';
 const String sixthFloor = 'sixth-floor';
+const String seventhFloor = 'seventh-floor';
+const String eighthFloor = 'eighth-floor';
+const String ninthFloor = 'ninth-floor';
+const String tenthFloor = 'tenth-floor';
 
 String getFloorName(int f) {
   switch (f) {
@@ -54,7 +58,15 @@ String getFloorName(int f) {
       return fifthFloor;
     case 6:
       return sixthFloor;
+    case 7:
+      return seventhFloor;
+    case 8:
+      return eighthFloor;
+    case 9:
+      return ninthFloor;
+    case 10:
+      return tenthFloor;
     default:
-      return groundFloor;
+      return 'unknown';
   }
 }
