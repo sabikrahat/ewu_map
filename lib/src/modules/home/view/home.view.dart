@@ -180,12 +180,13 @@ class Body extends ConsumerWidget {
                   ),
                   const SizedBox(height: 15),
                   ElevatedButton(
-                    onPressed: () async => await preCheckAndGoWifiHunterPage(context)
-                          .then((res) async {
-                        if (res) {
-                          await fadePush(context, const WifiHunterTest());
-                        }
-                      }),
+                    onPressed: () async =>
+                        await preCheckAndGoWifiHunterPage(context)
+                            .then((res) async {
+                      if (res) {
+                        await fadePush(context, const WifiHunterView());
+                      }
+                    }),
                     child: const Text('Wifi Hunter Check'),
                   ),
                   const SizedBox(height: 15),
@@ -222,7 +223,7 @@ Future<bool> preCheckAndGoWifiHunterPage(BuildContext context) async {
   } else {
     snack.showSnackBar(
       const SnackBar(
-        content: Text('Only available on mobile'),
+        content: Text('Only available on mobile devices.'),
         duration: Duration(seconds: 1),
       ),
     );
