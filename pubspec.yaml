@@ -10,7 +10,6 @@ environment:
   sdk: ">=3.0.3 <4.0.0"
 
 dependencies:
-  connectivity_plus: ^4.0.1
   dijkstra: ^0.0.4
   flutter:
     sdk: flutter
@@ -22,6 +21,8 @@ dependencies:
   intl: ^0.18.0
   logger: ^1.4.0
   path: ^1.8.3
+  permission_handler: ^10.3.0
+  wifi_hunter: ^1.1.0+1
 
 dev_dependencies:
   build_runner: ^2.4.4

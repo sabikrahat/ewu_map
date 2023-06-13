@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -26,10 +27,12 @@ class FloorDesign extends ConsumerWidget {
     }
     final list = uniqueValues.toList()
       ..sort((a, b) => a.node.compareTo(b.node));
+    final isMobile = defaultTargetPlatform == TargetPlatform.android ||
+        defaultTargetPlatform == TargetPlatform.iOS;
     return Scaffold(
       appBar: AppBar(
         title: Text(floor.name),
-        actions: appBarActions(ref, list, context),
+        actions: isMobile ? null : appBarActions(ref, list, context),
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
