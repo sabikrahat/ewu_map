@@ -1,0 +1,10 @@
+{
+    "node": 1,
+    "name": "",
+    "flex": 1,
+    "color": "0x00000000",
+    "border-top": "0xFFFF0000",
+    "border-left": "0xFFFF0000",
+    "border-right": "0xFFFF0000",
+    "border-bottom": "0xFFFF0000"
+}

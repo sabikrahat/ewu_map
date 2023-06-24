@@ -117,6 +117,31 @@ class Body extends ConsumerWidget {
                     child: const Text('Wifi Hunter Check'),
                   ),
                   const SizedBox(height: 15),
+                  Container(
+                    height: 100,
+                    width: 100,
+                    decoration: BoxDecoration(
+                      color: Colors.grey[300],
+                      border: const Border(
+                        bottom: BorderSide(
+                          color: Colors.green,
+                          width: 5,
+                        ),
+                        top: BorderSide(
+                          color: Colors.red,
+                          width: 5,
+                        ),
+                        left: BorderSide(
+                          color: Colors.yellow,
+                          width: 5,
+                        ),
+                        right: BorderSide(
+                          color: Colors.blue,
+                          width: 5,
+                        ),
+                      ),
+                    ),
+                  )
                 ],
               ),
             ),
