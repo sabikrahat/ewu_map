@@ -6,12 +6,12 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:wifi_hunter/wifi_hunter.dart';
 import 'package:wifi_hunter/wifi_hunter_result.dart';
 
-typedef WifiHunterNotifier
-    = AutoDisposeAsyncNotifierProvider<WifiHunterProvider, void>;
+typedef RawWifiHunterNotifier
+    = AutoDisposeAsyncNotifierProvider<RawWifiHunterProvider, void>;
 
-final wifiHunterProvider = WifiHunterNotifier(WifiHunterProvider.new);
+final rawWiifiHunterProvider = RawWifiHunterNotifier(RawWifiHunterProvider.new);
 
-class WifiHunterProvider extends AutoDisposeAsyncNotifier {
+class RawWifiHunterProvider extends AutoDisposeAsyncNotifier {
   WiFiHunterResult wiFiHunterResult = WiFiHunterResult();
 
   late List<WiFiHunterResultEntry> _entries;
@@ -41,6 +41,7 @@ class WifiHunterProvider extends AutoDisposeAsyncNotifier {
       ref.notifyListeners();
       return null;
     }
+    
   }
 
   List<WiFiHunterResultEntry> get rawEntries => _entries;
