@@ -1,0 +1,2291 @@
+{
+    "floor": 1,
+    "name": "Ground Floor",
+    "edgeVertics": [
+        [
+            1,
+            18
+        ],
+        [
+            27,
+            40
+        ],
+        [
+            40,
+            45
+        ],
+        [
+            27,
+            39
+        ],
+        [
+            39,
+            45
+        ],
+        [
+            22,
+            18
+        ],
+        [
+            2,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            19,
+            18
+        ],
+        [
+            23,
+            18
+        ],
+        [
+            24,
+            18
+        ],
+        [
+            25,
+            18
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            6
+        ],
+        [
+            20,
+            26
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            7
+        ],
+        [
+            21,
+            8
+        ],
+        [
+            21,
+            9
+        ],
+        [
+            21,
+            10
+        ],
+        [
+            21,
+            11
+        ],
+        [
+            21,
+            12
+        ],
+        [
+            21,
+            13
+        ],
+        [
+            21,
+            14
+        ],
+        [
+            21,
+            15
+        ],
+        [
+            21,
+            16
+        ],
+        [
+            21,
+            17
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            21,
+            37
+        ],
+        [
+            21,
+            34
+        ],
+        [
+            21,
+            33
+        ],
+        [
+            21,
+            32
+        ],
+        [
+            21,
+            31
+        ],
+        [
+            21,
+            30
+        ],
+        [
+            21,
+            29
+        ],
+        [
+            21,
+            28
+        ],
+        [
+            17,
+            37
+        ],
+        [
+            37,
+            35
+        ],
+        [
+            37,
+            36
+        ],
+        [
+            41,
+            30
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            39,
+            27
+        ],
+        [
+            39,
+            38
+        ],
+        [
+            39,
+            43
+        ],
+        [
+            39,
+            44
+        ],
+        [
+            27,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            37
+        ],
+        [
+            42,
+            37
+        ],
+        [
+            41,
+            45
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            37,
+            45
+        ],
+        [
+            37,
+            46
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            48
+        ],
+        [
+            45,
+            49
+        ],
+        [
+            45,
+            51
+        ],
+        [
+            45,
+            52
+        ],
+        [
+            45,
+            53
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            53,
+            58
+        ],
+        [
+            53,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            53,
+            56
+        ],
+        [
+            52,
+            56
+        ],
+        [
+            49,
+            47
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            56,
+            55
+        ],
+        [
+            56,
+            59
+        ],
+        [
+            56,
+            60
+        ]
+    ],
+    "colData": [
+        {
+            "id": 1,
+            "rowData": [
+                {
+                    "node": 1,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0xf1f1f1f1",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFF0000FF",
+                    "border-bottom": "0xFF0000FF"
+                },
+                {
+                    "node": 2,
+                    "name": "R-118 & R-119",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 3,
+                    "name": "R-117",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 4,
+                    "name": "R-116",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 5,
+                    "name": "washroom",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 6,
+                    "name": "corridor",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 7,
+                    "name": "stair",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 8,
+                    "name": "R-114",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 9,
+                    "name": "R-113",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 10,
+                    "name": "washroom",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 11,
+                    "name": "stair",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 12,
+                    "name": "washroom",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 13,
+                    "name": "R-109",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 14,
+                    "name": "R-107",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 15,
+                    "name": "stair",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 16,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 17,
+                    "name": "namaz-ghor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "rowData": [
+                {
+                    "node": 1,
+                    "name": "R-120",
+                    "flex": 1,
+                    "color": "0xf1f1f1f1",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 2,
+                    "name": "R-118 & R-119",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 3,
+                    "name": "R-117",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 4,
+                    "name": "R-116",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 5,
+                    "name": "washroom",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 6,
+                    "name": "corridor",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 7,
+                    "name": "stair",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 8,
+                    "name": "R-114",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 9,
+                    "name": "R-113",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 10,
+                    "name": "washroom",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 11,
+                    "name": "stair",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 12,
+                    "name": "washroom",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 13,
+                    "name": "R-109",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 14,
+                    "name": "R-107",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 16,
+                    "name": "corridor",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 16,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 17,
+                    "name": "namaz-ghor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "rowData": [
+                {
+                    "node": 1,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0xf1f1f1f1",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 18,
+                    "name": "MBA-department",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 19,
+                    "name": "Gate",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 20,
+                    "name": "corridor",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 7,
+                    "name": "stair",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 21,
+                    "name": "corridor",
+                    "flex": 10,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 17,
+                    "name": "namaz-ghor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "rowData": [
+                {
+                    "node": 1,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0xf1f1f1f1",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 18,
+                    "name": "MBA-department",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 19,
+                    "name": "Gate",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 20,
+                    "name": "corridor",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 21,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 21,
+                    "name": "corridor",
+                    "flex": 8,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 34,
+                    "name": "lift",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 17,
+                    "name": "namaz-ghor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "rowData": [
+                {
+                    "node": 22,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0xFF5733",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 18,
+                    "name": "MBA-department",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 20,
+                    "name": "corridor",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 28,
+                    "name": "R-113",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 29,
+                    "name": "R-112",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 30,
+                    "name": "Gate",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 31,
+                    "name": "R-111",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 32,
+                    "name": "R-110",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 33,
+                    "name": "R-108",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 35,
+                    "name": "stair",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 17,
+                    "name": "namaz-ghor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "rowData": [
+                {
+                    "node": 22,
+                    "name": "R-121",
+                    "flex": 1,
+                    "color": "0xFF5733",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 23,
+                    "name": "R-122 & R-123",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 24,
+                    "name": "R-124 & R-125",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 25,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 26,
+                    "name": "lift",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 27,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 28,
+                    "name": "R-113",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 29,
+                    "name": "R-112",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 30,
+                    "name": "Gate",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 31,
+                    "name": "R-111",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 32,
+                    "name": "R-110",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 33,
+                    "name": "R-108",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 35,
+                    "name": "stair",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 17,
+                    "name": "namaz-ghor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "rowData": [
+                {
+                    "node": 22,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0xFF5733",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 23,
+                    "name": "R-122 & R-123",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 24,
+                    "name": "R-124 & R-125",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 25,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 26,
+                    "name": "lift",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 27,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 28,
+                    "name": "R-113",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 29,
+                    "name": "R-112",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 30,
+                    "name": "Gate",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 31,
+                    "name": "R-111",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 32,
+                    "name": "R-110",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 33,
+                    "name": "R-108",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 36,
+                    "name": "R-102",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 17,
+                    "name": "namaz-ghor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "rowData": [
+                {
+                    "node": 38,
+                    "name": "Free-space",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 39,
+                    "name": "corridor",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 27,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 28,
+                    "name": "R-113",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 29,
+                    "name": "R-112",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 30,
+                    "name": "Gate",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 31,
+                    "name": "R-111",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 32,
+                    "name": "R-110",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 33,
+                    "name": "R-108",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 36,
+                    "name": "R-102",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 17,
+                    "name": "namaz-ghor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "rowData": [
+                {
+                    "node": 38,
+                    "name": "Free-space",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 39,
+                    "name": "corridor",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 40,
+                    "name": "Wifi-zone",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 41,
+                    "name": "Open-courtyard",
+                    "flex": 9,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 42,
+                    "name": "Admin-access",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "rowData": [
+                {
+                    "node": 38,
+                    "name": "Free-space",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 39,
+                    "name": "corridor",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 40,
+                    "name": "Wifi-zone",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 41,
+                    "name": "Open-courtyard",
+                    "flex": 9,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 42,
+                    "name": "Admin-access",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "rowData": [
+                {
+                    "node": 43,
+                    "name": "washroom",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 39,
+                    "name": "corridor",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 40,
+                    "name": "Wifi-zone",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 41,
+                    "name": "Open-courtyard",
+                    "flex": 9,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 42,
+                    "name": "Admin-access",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "rowData": [
+                {
+                    "node": 43,
+                    "name": "washroom",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 39,
+                    "name": "corridor",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 40,
+                    "name": "Wifi-zone",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 41,
+                    "name": "Open-courtyard",
+                    "flex": 9,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 42,
+                    "name": "Admin-access",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "rowData": [
+                {
+                    "node": 43,
+                    "name": "washroom",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 39,
+                    "name": "corridor",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 40,
+                    "name": "Wifi-zone",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 41,
+                    "name": "Open-courtyard",
+                    "flex": 9,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 42,
+                    "name": "Admin-access",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "rowData": [
+                {
+                    "node": 44,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 39,
+                    "name": "corridor",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 40,
+                    "name": "Wifi-zone",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 41,
+                    "name": "Open-courtyard",
+                    "flex": 9,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 42,
+                    "name": "Admin-access",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "rowData": [
+                {
+                    "node": 44,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 39,
+                    "name": "corridor",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 40,
+                    "name": "Wifi-zone",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 41,
+                    "name": "Open-courtyard",
+                    "flex": 9,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "corridor",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 42,
+                    "name": "Admin-access",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "rowData": [
+                {
+                    "node": 44,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 45,
+                    "name": "corridor",
+                    "flex": 14,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 46,
+                    "name": "stair",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "rowData": [
+                {
+                    "node": 44,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 45,
+                    "name": "corridor",
+                    "flex": 14,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 46,
+                    "name": "stair",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "rowData": [
+                {
+                    "node": 44,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 45,
+                    "name": "corridor",
+                    "flex": 14,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 54,
+                    "name": "Free-space",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "rowData": [
+                {
+                    "node": 44,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 48,
+                    "name": "stair",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 49,
+                    "name": "Free-space",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 50,
+                    "name": "lift",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 51,
+                    "name": "Free-space",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 52,
+                    "name": "Auditorium",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 53,
+                    "name": "corridor",
+                    "flex": 7,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 54,
+                    "name": "Free-space",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "rowData": [
+                {
+                    "node": 44,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 48,
+                    "name": "stair",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 49,
+                    "name": "Free-space",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 50,
+                    "name": "lift",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 51,
+                    "name": "Free-space",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 52,
+                    "name": "Auditorium",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 53,
+                    "name": "corridor",
+                    "flex": 7,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 54,
+                    "name": "Free-space",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "rowData": [
+                {
+                    "node": 47,
+                    "name": "Study-zone",
+                    "flex": 8,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 51,
+                    "name": "Free-space",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 52,
+                    "name": "Auditorium",
+                    "flex": 3,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 53,
+                    "name": "corridor",
+                    "flex": 4,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 57,
+                    "name": "Reception",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 58,
+                    "name": "Punch-machine",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "rowData": [
+                {
+                    "node": 47,
+                    "name": "Study-zone",
+                    "flex": 8,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 56,
+                    "name": "Free-space",
+                    "flex": 8,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 57,
+                    "name": "Reception",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 58,
+                    "name": "Punch-machine",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "rowData": [
+                {
+                    "node": 47,
+                    "name": "Study-zone",
+                    "flex": 8,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 55,
+                    "name": "FUB-entry",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 56,
+                    "name": "Free-space",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 59,
+                    "name": "washroom",
+                    "flex": 5,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 60,
+                    "name": "stair",
+                    "flex": 1,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 57,
+                    "name": "Reception",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 58,
+                    "name": "Punch-machine",
+                    "flex": 2,
+                    "color": "0x00000000",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        }
+    ]
+}

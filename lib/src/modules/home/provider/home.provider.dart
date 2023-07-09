@@ -4,6 +4,9 @@ import '../api/home.api.dart';
 
 final loadMapProvider = FutureProvider((_) async => await jsonLoad());
 
+final loadFloorProvider =
+    FutureProvider.family.autoDispose((_, String path) async => await jsonFloorLoad(path));
+
 final isCheckedRowDatumPd =
     StateProvider.autoDispose.family<bool, FloorRowDatum>((_, __) => false);
 

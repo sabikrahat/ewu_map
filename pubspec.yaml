@@ -7,7 +7,7 @@ publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.0.3 <4.0.0"
+  sdk: ">=3.0.5 <4.0.0"
 
 dependencies:
   dijkstra: ^0.0.4
@@ -21,7 +21,7 @@ dependencies:
   intl: ^0.18.0
   logger: ^1.4.0
   path: ^1.8.3
-  permission_handler: ^10.3.0
+  # permission_handler: ^10.3.0
   wifi_hunter: ^1.1.0+1
 
 dev_dependencies:

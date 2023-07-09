@@ -1,0 +1,1822 @@
+{
+    "floor": 7,
+    "name": "7th floor",
+    "edgeVertics": [],
+    "colData": [
+        {
+            "id": 1,
+            "rowData": [
+                {
+                    "node": 1,
+                    "name": "R-717",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 2,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 3,
+                    "name": "R-716",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 4,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 5,
+                    "name": "R-725",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 6,
+                    "name": "washroom",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 7,
+                    "name": "",
+                    "flex": 9,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 8,
+                    "name": "R-713",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 9,
+                    "name": "R-712",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 10,
+                    "name": "R-711",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 11,
+                    "name": "R-710",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 12,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "rowData": [
+                {
+                    "node": 13,
+                    "name": "R-718",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 14,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 15,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 16,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 17,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 18,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 7,
+                    "name": "",
+                    "flex": 9,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 19,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 20,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 21,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 22,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 23,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "rowData": [
+                {
+                    "node": 24,
+                    "name": "R-719",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 25,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 26,
+                    "name": "Void",
+                    "flex": 2,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 27,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 28,
+                    "name": "Pharmacy",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 7,
+                    "name": "",
+                    "flex": 9,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 29,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 30,
+                    "name": "Void",
+                    "flex": 2,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 31,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 32,
+                    "name": "R-709",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "rowData": [
+                {
+                    "node": 33,
+                    "name": "R-720",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 34,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 26,
+                    "name": "Void",
+                    "flex": 2,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 35,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 36,
+                    "name": "stairs",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 37,
+                    "name": "stair",
+                    "flex": 4,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 7,
+                    "name": "",
+                    "flex": 4,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 38,
+                    "name": "stairs",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 39,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 30,
+                    "name": "Void",
+                    "flex": 2,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 40,
+                    "name": "stairs",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 41,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "rowData": [
+                {
+                    "node": 42,
+                    "name": "R-721",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 43,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 44,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 45,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 46,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 47,
+                    "name": "R-724",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 7,
+                    "name": "",
+                    "flex": 9,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 48,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 49,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 50,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 51,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 52,
+                    "name": "R-708",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "rowData": [
+                {
+                    "node": 53,
+                    "name": "R-722",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 54,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 55,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 56,
+                    "name": "R-723",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 57,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 58,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 59,
+                    "name": "lift",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 60,
+                    "name": "lift",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 61,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 62,
+                    "name": "Rooftop",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 63,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 64,
+                    "name": "Gate",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 65,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 66,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 67,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 68,
+                    "name": "R-701",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 69,
+                    "name": "R-703",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 70,
+                    "name": "R-705",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 71,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 72,
+                    "name": "R-706",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "rowData": [
+                {
+                    "node": 73,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 74,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 75,
+                    "name": "",
+                    "flex": 4,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 9,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 77,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 78,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 79,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 80,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 81,
+                    "name": "R-707",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "rowData": [
+                {
+                    "node": 82,
+                    "name": "",
+                    "flex": 4,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 83,
+                    "name": "washroom",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 84,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 10,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 85,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 86,
+                    "name": "",
+                    "flex": 3,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "rowData": [
+                {
+                    "node": 87,
+                    "name": "",
+                    "flex": 5,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 88,
+                    "name": "R-725",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 10,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 85,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 89,
+                    "name": "",
+                    "flex": 3,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "rowData": [
+                {
+                    "node": 90,
+                    "name": "",
+                    "flex": 5,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 91,
+                    "name": "R-726",
+                    "flex": 3,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 10,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 85,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 92,
+                    "name": "",
+                    "flex": 3,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "rowData": [
+                {
+                    "node": 93,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 94,
+                    "name": "",
+                    "flex": 4,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 95,
+                    "name": "stairs",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 10,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 85,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 96,
+                    "name": "",
+                    "flex": 3,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "rowData": [
+                {
+                    "node": 97,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 98,
+                    "name": "",
+                    "flex": 4,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 99,
+                    "name": "lift",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 10,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 85,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 100,
+                    "name": "",
+                    "flex": 3,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "rowData": [
+                {
+                    "node": 101,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 102,
+                    "name": "",
+                    "flex": 4,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 103,
+                    "name": "lift",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 10,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 85,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 107,
+                    "name": "",
+                    "flex": 3,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "rowData": [
+                {
+                    "node": 108,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 109,
+                    "name": "R-728",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 110,
+                    "name": "stairs",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 111,
+                    "name": "",
+                    "flex": 3,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 10,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 85,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 112,
+                    "name": "",
+                    "flex": 3,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "rowData": [
+                {
+                    "node": 113,
+                    "name": "washroom",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 114,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 115,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 116,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 117,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 118,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 11,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 119,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 120,
+                    "name": "",
+                    "flex": 2,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "rowData": [
+                {
+                    "node": 121,
+                    "name": "washroom",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 122,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 123,
+                    "name": "void",
+                    "flex": 2,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 124,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 125,
+                    "name": "R-737",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 11,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 119,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 126,
+                    "name": "",
+                    "flex": 2,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "rowData": [
+                {
+                    "node": 127,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 128,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 123,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 129,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 130,
+                    "name": "Gallery",
+                    "flex": 5,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 11,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 119,
+                    "name": "Gallery",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 131,
+                    "name": "stairs",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 132,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "rowData": [
+                {
+                    "node": 133,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 134,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 135,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 136,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 137,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 138,
+                    "name": "R-735",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 76,
+                    "name": "Open-courtyard",
+                    "flex": 11,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 119,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 139,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 140,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "rowData": [
+                {
+                    "node": 141,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 142,
+                    "name": "R-731",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 143,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 144,
+                    "name": "R-732",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 145,
+                    "name": "R-734",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 146,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 147,
+                    "name": "",
+                    "flex": 13,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                },
+                {
+                    "node": 148,
+                    "name": "",
+                    "flex": 1,
+                    "color": "0x000000FF",
+                    "border-top": "0xFFFF0000",
+                    "border-left": "0xFFFF0000",
+                    "border-right": "0xFFFF0000",
+                    "border-bottom": "0xFFFF0000"
+                }
+            ]
+        }
+    ]
+}

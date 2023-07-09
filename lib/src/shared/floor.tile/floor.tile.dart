@@ -23,11 +23,23 @@ class FloorTile extends ConsumerWidget {
           color: isChecked
               ? context.theme.primaryColor.withOpacity(0.5)
               : Color(int.parse(rowDatum.color)),
-          border: Border.all(
-            color: isChecked
-                ? context.theme.primaryColor.withOpacity(0.5)
-                : Color(int.parse(rowDatum.border)),
-            width: 0.5,
+          border: Border(
+            top: BorderSide(
+              color: Color(int.parse(rowDatum.borderTop)),
+              width: 0.5,
+            ),
+            left: BorderSide(
+              color: Color(int.parse(rowDatum.borderLeft)),
+              width: 0.5,
+            ),
+            right: BorderSide(
+              color: Color(int.parse(rowDatum.borderRight)),
+              width: 0.5,
+            ),
+            bottom: BorderSide(
+              color: Color(int.parse(rowDatum.borderBottom)),
+              width: 0.5,
+            ),
           ),
         ),
         child: floorName == tenthFloor
@@ -38,14 +50,12 @@ class FloorTile extends ConsumerWidget {
                 style: context.text.labelLarge!
                     .copyWith(color: context.text.titleLarge!.color),
               )
-            : FittedBox(
-                child: Text(
-                  rowDatum.toString(),
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  style: context.text.labelLarge!
-                      .copyWith(color: context.text.titleLarge!.color),
-                ),
+            : Text(
+                rowDatum.name,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: context.text.labelLarge!
+                    .copyWith(color: context.text.titleLarge!.color),
               ),
       ),
     );
