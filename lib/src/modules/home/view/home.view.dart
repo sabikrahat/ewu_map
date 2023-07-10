@@ -1,8 +1,7 @@
-import 'dart:io';
-
 import 'package:ewu_map/src/modules/home/model/ewu.model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../constants/custom.routes.dart';
@@ -182,7 +181,8 @@ Future<void> goToBaseFloorDesign(
     BuildContext context, WidgetRef ref, int f) async {
   final nav = Navigator.of(context);
   final path = 'assets/files/floor_$f.json';
-  if (await File(path).exists()) {
+  final sts = (await rootBundle.loadString(path)).isNotEmpty; 
+  if (sts) {
     final floor = await ref.watch(loadFloorProvider(path).future);
     await nav.push(
       PageRouteBuilder(
